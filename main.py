@@ -56,7 +56,7 @@ class SystemMonitoringDashboard:
         self.anomaly_detector = AdvancedAnomalyDetector()
         self.forecaster = AdvancedForecaster()
         self.vector_db = AnomalyVectorDB()
-        self.llm_analyzer = LLMAnalyzer(api_key = 'AIzaSyCUvWJ2Qpw8jjPse_bKjgkWya70kTjdBpI')
+        self.llm_analyzer = LLMAnalyzer(api_key = 'xyz')
         self.visualizer = AdvancedVisualizations()
         
         # Sample data generation (replace with your actual data source)
